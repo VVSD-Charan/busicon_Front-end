@@ -7,7 +7,9 @@ const Allroles = () => {
   useEffect(() => {
     async function getJobs() {
       try {
-        const response = await axios.get('http://localhost:3001/alljobs')
+        const response = await axios.get(
+          `${process.env.REACT_APP_BASE_URL}/alljobs`
+        )
         const data = await response.data
 
         setRolesData(data)

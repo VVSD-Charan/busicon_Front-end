@@ -24,7 +24,7 @@ const AddJob = () => {
         },
       }
       const resp = await axios.post(
-        'http://localhost:3001/addjob',
+        `${process.env.REACT_APP_BASE_URL}/addjob`,
         null,
         config
       )

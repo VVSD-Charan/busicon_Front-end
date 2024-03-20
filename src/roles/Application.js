@@ -12,7 +12,9 @@ const Application = () => {
   useEffect(() => {
     async function getJob() {
       try {
-        const response = await axios.get(`http://localhost:3001/job/${id}`)
+        const response = await axios.get(
+          `${process.env.REACT_APP_BASE_URL}/job/${id}`
+        )
         const data = await response.data
         setRole(data.jobTitle)
       } catch (error) {

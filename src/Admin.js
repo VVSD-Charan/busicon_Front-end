@@ -10,7 +10,9 @@ const Admin = () => {
   useEffect(() => {
     async function getJobs() {
       try {
-        const response = await axios.get('http://localhost:3001/alljobs')
+        const response = await axios.get(
+          `${process.env.REACT_APP_BASE_URL}/alljobs`
+        )
         const data = await response.data
 
         setRolesData(data)
@@ -25,7 +27,7 @@ const Admin = () => {
   async function deleteJob(jobId) {
     try {
       const response = await axios.delete(
-        `http://localhost:3001/deletejob/${jobId}`
+        `${process.env.REACT_APP_BASE_URL}/deletejob/${jobId}`
       )
       setDeleteStatus('Job deleted successfully')
     } catch (error) {
