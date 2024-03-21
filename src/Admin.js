@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import Header from './commons/Header'
 
 const Admin = () => {
   const [rolesData, setRolesData] = useState([])
@@ -26,9 +25,7 @@ const Admin = () => {
 
   async function deleteJob(jobId) {
     try {
-      const response = await axios.delete(
-        `${process.env.REACT_APP_BASE_URL}/deletejob/${jobId}`
-      )
+      await axios.delete(`${process.env.REACT_APP_BASE_URL}/deletejob/${jobId}`)
       setDeleteStatus('Job deleted successfully')
     } catch (error) {
       setDeleteStatus('Failed to delete job')

@@ -1,11 +1,10 @@
-import React, { useState, useRef } from 'react'
+import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import Header from './commons/Header'
 import Footer from './commons/Footer'
 
 // Importing breadcrumb images
 import breadcrumbshape1 from './img/breadcrumb/breadcrumb-shape-1.png'
-import breadcrumbshape2 from './img/breadcrumb/breadcrumb-shape-2.png'
 
 // Importing contact images
 import contactbanner from './img/contact/contact-banner.jpg'
@@ -286,6 +285,7 @@ const Contact = () => {
                           <a
                             href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z"
                             target="_blank"
+                            rel="noreferrer"
                           >
                             <FaLocationDot style={{ fontSize: '20px' }} />{' '}
                             Siddipet , Telangana , India
