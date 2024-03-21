@@ -3,11 +3,6 @@ import React from 'react'
 // Importing logo
 import downlogo from '../img/busicon/down-logo.png'
 
-// Importing footer images
-import footer1 from '../img/footer/dwnld-1.png'
-import footer2 from '../img/footer/dwnld-2.png'
-import footer3 from '../img/footer/dwnld-3.png'
-
 const Footer = () => {
   return (
     <footer>
@@ -42,6 +37,7 @@ const Footer = () => {
                     <a
                       href="https://www.google.com.bd/maps/place/লাক্সেমবার্গ/@49.8143242,5.5590915,10z/data=!3m1!4b1!4m5!3m4!1s0x479545b9ca212147:0x64db60f602d392ef!8m2!3d49.815273!4d6.129583"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Head office : Siddipet,
                       <br />
@@ -169,10 +165,10 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <div className="tp-copyright__social">
-                  <a href="#">
+                  <a href="https://www.facebook.com/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  <a href="https://twitter.com">
                     <i className="fab fa-twitter" />
                   </a>
                   <a href="https://wa.me/message/TLNLNHWFABD5B1">
@@ -187,38 +183,8 @@ const Footer = () => {
                 <div className="tp-copyright__text tp-copyright__text-2 text-center">
                   <span>
                     Full Copyright &amp; Design By{' '}
-                    <a href="#">@Busicon Services</a> 2024
+                    <a href="/">@Busicon Services</a> 2024
                   </span>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                <div className="tp-copyright__lang-box  d-flex align-items-center justify-content-md-end justify-content-sm-end justify-content-start">
-                  <div className="tp-copyright__lang tp-copyright__lang-2">
-                    <ul>
-                      <li>
-                        <a
-                          id="tp-copyright__lang-toggle"
-                          href="javascript:void(0)"
-                        >
-                          <span>
-                            English (US)
-                            <i className="fal fa-angle-down" />
-                          </span>
-                        </a>
-                        <ul className="tp-copyright__lang-submenu">
-                          <li>
-                            <a href="#">Arabic</a>
-                          </li>
-                          <li>
-                            <a href="#">Spanish</a>
-                          </li>
-                          <li>
-                            <a href="#">Mandarin</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
