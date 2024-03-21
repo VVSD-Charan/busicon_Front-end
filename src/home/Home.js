@@ -4,41 +4,24 @@ import React from 'react'
 import homebg1 from '../img/busicon/homebg1.png'
 
 // Importing logos
-import whiteLogo from '../img/logo/logo-white.png'
-import blackLogo from '../img/logo/logo-black.png'
 import downlogo from '../img/busicon/down-logo.png'
 
-// importing project imgs
-import projectinner4 from '../img/project/project-inner-4.jpg'
-import projectinner5 from '../img/project/project-inner-5.jpg'
-import projectinner6 from '../img/project/project-inner-6.jpg'
-import projectinner7 from '../img/project/project-inner-7.jpg'
-
 // importing hero images
-import scrolldown from '../img/hero/scroll-down.png'
 import herouser from '../img/hero/hero-user.jpg'
-import img21 from '../img/hero/hero-img-2-1.png'
-import img23 from '../img/hero/hero-img-2-3.png'
-import img02 from '../img/hero/image_02.png'
-import img24 from '../img/hero/hero-img-2-4.png'
-import imgshape22 from '../img/hero/hero-shape-2-2.png'
 import herobg2 from '../img/hero/hero-bg-2.png'
 
 // importing payment
 import hand from '../img/payment/hand.png'
-import qrcode from '../img/payment/qrcode.png'
 import coin1 from '../img/payment/coin-1.png'
 import coin2 from '../img/payment/coin-2.png'
 import mobile from '../img/payment/mobile.png'
 import payment3 from '../img/payment/payment-3.png'
 import message from '../img/payment/message.png'
 import background from '../img/payment/background.png'
-import payimage from '../img/payment/image.png'
 import getpaid from '../img/payment/get-paid.png'
 import securebanking from '../img/payment/secure banking.png'
 
 // importing payment logo
-import paylogomain from '../img/payment-logo/logo-main.png'
 import unionbank from '../img/payment-logo/unionbank.png'
 import sbi from '../img/payment-logo/sbi.png'
 import axis from '../img/payment-logo/AXISBANK.BO.png'
@@ -60,17 +43,11 @@ import rbl from '../img/payment-logo/rbl.png'
 import servbg21 from '../img/service/sv-bg-2-1.jpg'
 import Header from '../commons/Header'
 import finance from '../img/service/finance.png'
-import tax from '../img/service/tax.png'
 import insurance from '../img/service/insurance.png'
 import legalities from '../img/service/legalities.png'
 import collaborations from '../img/service/collaborations.png'
 
 // Importing account images
-import accountbg from '../img/account/account-bg.png'
-import accmain from '../img/account/acc-main.png'
-import acauthor from '../img/account/ac-author.png'
-import acshape1 from '../img/account/ac-shape-1.png'
-import acshape2 from '../img/account/ac-shape-2.png'
 import Footer from '../commons/Footer'
 import Faq from '../commons/Faq'
 
@@ -90,64 +67,6 @@ const Home = () => {
       {/* back-to-top-end  */}
       <Header />
       {/* tp-offcanvus-area-start */}
-      <div className="tpoffcanvas-area">
-        <div className="tpoffcanvas">
-          <div className="tpoffcanvas__close-btn">
-            <button className="close-btn">
-              <i className="fal fa-times" />
-            </button>
-          </div>
-          <div className="tpoffcanvas__logo text-center">
-            <a href="index.html">
-              <img src={whiteLogo} alt="" />
-            </a>
-          </div>
-          <div className="mobile-menu" />
-          <div className="tpoffcanvas__instagram text-center">
-            <div className="tpoffcanvas__instagram-title">
-              <h4>instagram</h4>
-            </div>
-            <a href="#">
-              <img src={projectinner4} alt="" />
-            </a>
-            <a href="#">
-              <img src={projectinner5} alt="" />
-            </a>
-            <a href="#">
-              <img src={projectinner6} alt="" />
-            </a>
-            <a href="#">
-              <img src={projectinner7} alt="" />
-            </a>
-          </div>
-          <div className="tpoffcanvas__info text-center">
-            <h4 className="offcanva-title">we are here</h4>
-            <a
-              href="https://www.google.com/maps/@23.506657,90.3443647,7z"
-              target="_blank"
-            >
-              27 Division St, New York, <br />
-              NY 10002, USA
-            </a>
-          </div>
-          <div className="tpoffcanvas__social">
-            <div className="social-icon text-center">
-              <a href="#">
-                <i className="fab fa-twitter" />
-              </a>
-              <a href="#">
-                <i className="fab fa-instagram" />
-              </a>
-              <a href="#">
-                <i className="fab fa-facebook-square" />
-              </a>
-              <a href="#">
-                <i className="fab fa-dribbble" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="body-overlay" />
       {/* tp-offcanvus-area-end */}
       <div id="smooth-wrapper">
@@ -158,13 +77,6 @@ const Home = () => {
               className="tp-hero-2__area tp-hero-2__ptb tp-hero-2__plr z-index fix p-relative"
               style={{ backgroundImage: `url(${herobg2})` }}
             >
-              <div className="scroll-bg d-none d-sm-block">
-                <img src={scrolldown} alt="" />
-              </div>
-              <div className="tp-hero-2__mouse-scroll smooth d-none d-sm-block">
-                <a className="mouse-scroll-btn" href="#payment-method" />
-                <span>Scroll Down</span>
-              </div>
               <div className="tp-hero-2__shape-img-1 d-none d-sm-block">
                 <svg
                   width={238}
