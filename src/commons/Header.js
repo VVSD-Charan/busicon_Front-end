@@ -78,12 +78,6 @@ const Header = () => {
                 </nav>
               </div>
             </div>
-            {/* <div className="col-xl-3 col-lg-3 col-md-6 col-6">
-                                <div className="tp-header-2__right d-flex align-items-center justify-content-end">
-                                    <a className="tp-header-2__login d-none d-md-block" href="/careers">Careers</a>
-                                    <a className="header-bottom__bar tp-menu-bar d-lg-none" href="javascript:void(0)"><i className="fal fa-bars" /></a>
-                                </div>
-                            </div> */}
           </div>
         </div>
       </div>
