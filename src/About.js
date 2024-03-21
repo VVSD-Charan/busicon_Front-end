@@ -22,6 +22,7 @@ import about1 from './img/about/about-1.jpg'
 import about2 from './img/about/about-2.jpg'
 import about3 from './img/about/about-3.jpg'
 import about5 from './img/about/about-5.png'
+import aboutbg from './img/about/about-bg-shape.png'
 
 const About = () => {
   return (
@@ -34,18 +35,6 @@ const About = () => {
           <main>
             {/* tp-breadcrumb-area-start */}
             <div className="about-banner-area p-relative">
-              <div className="about-shape-1 z-index-3">
-                <img
-                  src="assets/img/breadcrumb/breadcrumb-shape-1.png"
-                  alt=""
-                />
-              </div>
-              <div className="about-shape-2 z-index-3">
-                <img
-                  src="assets/img/breadcrumb/breadcrumb-shape-2.png"
-                  alt=""
-                />
-              </div>
               <div className="about-banner p-relative z-index fix">
                 <div className="container">
                   <div className="row">
@@ -295,10 +284,7 @@ const About = () => {
                   style={{ alignItems: 'center' }}
                 >
                   <div className="col-xl-4">
-                    <div className="ab-company-video">
-                      {/* <a className="popup-video" href="https://www.youtube.com/watch?v=EW4ZYb3mCZk"><i className="fas fa-play" /></a>
-                                            <span>Watch Demo</span> */}
-                    </div>
+                    <div className="ab-company-video"></div>
                   </div>
                   <div className="col-xl-8">
                     <div className="row">
@@ -313,15 +299,6 @@ const About = () => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="col-md-4 col-sm-4 mb-40">
-                                                <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
-                                                    <div className="ab-company-fun-fact">
-                                                        <span>VALUE</span>
-                                                        <h4><em>m</em></h4>
-                                                        <p>Revenue per Year</p>
-                                                    </div>
-                                                </div>
-                                            </div> */}
                       <div className="col-md-4 col-sm-4 mb-40">
                         <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
                           <div className="ab-company-fun-fact">
@@ -350,7 +327,7 @@ const About = () => {
                   >
                     <div className="tp-about__img-wrapper text-center text-lg-end p-relative">
                       <div className="tp-about__bg-shape">
-                        <img src="assets/img/about/about-bg-shape.png" alt="" />
+                        <img src={aboutbg} alt="" />
                       </div>
                       <div className="tp-about__main-img z-index">
                         <img src={about2} alt="" />
@@ -434,7 +411,7 @@ const About = () => {
                       <div className="tp-team-top-content text-center text-md-end">
                         <a
                           className="tp-btn-inner tp-btn-hover alt-color-orange"
-                          href="team-details.html"
+                          href="/careers"
                         >
                           <span>Join Team</span>
                           <b />
@@ -443,124 +420,6 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="row">
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-1 team-inner-border-right">
-                                        <div className="tp-team-item text-center tp-team-inner-title-color z-index">
-                                            <div className="tp-team-img">
-                                                <img src="assets/img/team/team-4-1.png" alt="" />
-                                            </div>
-                                            <div className="tp-team-content">
-                                                <h4 className="tp-team-title-sm"><a href="team-details.html">Alexa Montes</a></h4>
-                                                <span>Partner &amp; COO</span>
-                                            </div>
-                                            <div className="tp-team-social">
-                                                <a className="icon-color-1" href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-2" href="#">
-                                                    <i className="fab fa-instagram" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-3" href="#">
-                                                    <i className="fab fa-twitter" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-4" href="#">
-                                                    <i className="fab fa-linkedin-in" />
-                                                    <span />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-2 team-inner-border-right">
-                                        <div className="tp-team-item tp-team-inner-title-color text-center z-index">
-                                            <div className="tp-team-img">
-                                                <img src="assets/img/team/team-4-2.png" alt="" />
-                                            </div>
-                                            <div className="tp-team-content">
-                                                <h4 className="tp-team-title-sm"><a href="team-details.html">Ravi Ganatra</a></h4>
-                                                <span>Designer</span>
-                                            </div>
-                                            <div className="tp-team-social">
-                                                <a className="icon-color-1" href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-2" href="#">
-                                                    <i className="fab fa-instagram" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-3" href="#">
-                                                    <i className="fab fa-twitter" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-4" href="#">
-                                                    <i className="fab fa-linkedin-in" />
-                                                    <span />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-3 team-inner-border-right">
-                                        <div className="tp-team-item tp-team-inner-title-color text-center z-index">
-                                            <div className="tp-team-img">
-                                                <img src="assets/img/team/team-4-3.png" alt="" />
-                                            </div>
-                                            <div className="tp-team-content">
-                                                <h4 className="tp-team-title-sm"><a href="team-details.html">Imdat Cimsit</a></h4>
-                                                <span>CEO &amp; Founder</span>
-                                            </div>
-                                            <div className="tp-team-social">
-                                                <a className="icon-color-1" href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-2" href="#">
-                                                    <i className="fab fa-instagram" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-3" href="#">
-                                                    <i className="fab fa-twitter" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-4" href="#">
-                                                    <i className="fab fa-linkedin-in" />
-                                                    <span />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-4 team-inner-border-right">
-                                        <div className="tp-team-item tp-team-inner-title-color text-center z-index">
-                                            <div className="tp-team-img">
-                                                <img src="assets/img/team/team-4-4.png" alt="" />
-                                            </div>
-                                            <div className="tp-team-content">
-                                                <h4 className="tp-team-title-sm"><a href="team-details.html">Imdat Cimsit</a></h4>
-                                                <span>PHP Developer</span>
-                                            </div>
-                                            <div className="tp-team-social">
-                                                <a className="icon-color-1" href="#">
-                                                    <i className="fab fa-facebook-f" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-2" href="#">
-                                                    <i className="fab fa-instagram" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-3" href="#">
-                                                    <i className="fab fa-twitter" />
-                                                    <span />
-                                                </a>
-                                                <a className="icon-color-4" href="#">
-                                                    <i className="fab fa-linkedin-in" />
-                                                    <span />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
                 <div className="row">
                   {team.map((item, index) => {
                     return (
@@ -570,31 +429,16 @@ const About = () => {
                       >
                         <div className="tp-team-item text-center tp-team-inner-title-color z-index">
                           <div className="tp-team-img">
-                            <img src="assets/img/team/team-4-1.png" alt="" />
+                            <img
+                              src="https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-1024.png"
+                              alt=""
+                            />
                           </div>
                           <div className="tp-team-content">
                             <h4 className="tp-team-title-sm">
-                              <a href="team-details.html">{item.name}</a>
+                              <button>{item.name}</button>
                             </h4>
                             <span>{item.role}</span>
-                          </div>
-                          <div className="tp-team-social">
-                            <a className="icon-color-1" href="#">
-                              <i className="fab fa-facebook-f" />
-                              <span />
-                            </a>
-                            <a className="icon-color-2" href="#">
-                              <i className="fab fa-instagram" />
-                              <span />
-                            </a>
-                            <a className="icon-color-3" href="#">
-                              <i className="fab fa-twitter" />
-                              <span />
-                            </a>
-                            <a className="icon-color-4" href="#">
-                              <i className="fab fa-linkedin-in" />
-                              <span />
-                            </a>
                           </div>
                         </div>
                       </div>
