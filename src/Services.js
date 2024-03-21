@@ -13,9 +13,6 @@ import businessimg from './img/service/business.png'
 import breadcrumbshape1 from './img/breadcrumb/breadcrumb-shape-1.png'
 import breadcrumb2 from './img/breadcrumb/breadcrumb-2.jpg'
 
-// Importing cta
-import ctabg from './img/cta/cta-bg.jpg'
-
 // Importing cards
 import sale1 from './img/card/sale-1.png'
 import sale2 from './img/card/sale-2.png'

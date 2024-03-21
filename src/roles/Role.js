@@ -32,7 +32,7 @@ const Role = () => {
     }
 
     getJob()
-  }, [])
+  })
 
   return (
     <div>
@@ -55,25 +55,6 @@ const Role = () => {
                       <h3 className="breadcrumb__title tp-char-animation">
                         Careers Details
                       </h3>
-                      <div
-                        className="breadcrumb__list wow tpfadeUp"
-                        data-wow-duration=".9s"
-                        data-wow-delay=".4s"
-                      >
-                        <span className="child-one">
-                          <a href="#">Home</a>
-                        </span>
-                        <span className="dvdr">
-                          <i className="fal fa-angle-right" />
-                        </span>
-                        <span className="child-one">
-                          <a href="#">Careers page</a>
-                        </span>
-                        <span className="dvdr">
-                          <i className="fal fa-angle-right" />
-                        </span>
-                        <span>{obj.jobTitle}</span>
-                      </div>
                     </div>
                   </div>
                   <div className="col-xl-4 col-lg-5 col-lg-4 text-center text-md-end">
@@ -162,59 +143,6 @@ const Role = () => {
                         </h4>
                         {obj?.jobRequired ? obj.jobRequired : null}
                       </div>
-                      {/* <div className="career-details-job-responsiblity mb-45">
-                                                <h4 className="career-details-title-sm">Our Benefits</h4>
-                                                <p className="pb-15">Now, the paradigm has shifted. The question is not why you should include
-                                                    a content marketing strategy.</p>
-                                                <div className="career-details-job-list">
-                                                    <ul>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Flexible hours
-                                                        </li>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Unlimited PTO
-                                                        </li>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Medical insurance
-                                                        </li>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Career growth
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="career-details-job-responsiblity mb-20">
-                                                <h4 className="career-details-title-sm">Job Requirements</h4>
-                                                <p className="pb-15">There are many variations of passages of Lorem Ipsum available, but the
-                                                    majority have suffered alteration in some form, by injected humour, or randomised words
-                                                    which don't look even slightly believable. If you are going to use a passage
-                                                    of Lorem Ipsum,anything embarrassing hidden.</p>
-                                                <div className="career-details-job-list">
-                                                    <ul>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Experience building software and systems that balance <br /> simplicity,
-                                                            flexibility, and security.
-                                                        </li>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            Track record with a smart contract language <br /> such as Solidity
-                                                        </li>
-                                                        <li>
-                                                            <i className="fal fa-long-arrow-right" />
-                                                            A customer-focused and product-focused mindset.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="career-details-job-responsiblity">
-                                                <h4 className="career-details-title-sm">Education &amp; Experience</h4>
-                                                <p>TBachelors Degree in Interaction, Graphic Design, Media Arts or similar.</p>
-                                            </div> */}
                     </div>
                   </div>
                   <Application />

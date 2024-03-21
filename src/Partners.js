@@ -2,22 +2,6 @@ import React from 'react'
 import Header from './commons/Header'
 import Footer from './commons/Footer'
 
-import unionbank from './img/payment-logo/unionbank.png'
-import sbi from './img/payment-logo/sbi.png'
-import axis from './img/payment-logo/AXISBANK.BO.png'
-import icici from './img/payment-logo/icici.png'
-import hdfc from './img/payment-logo/hdfc.png'
-import kotak from './img/payment-logo/kotak.png'
-import canara from './img/payment-logo/canara bank.png'
-import centralbank from './img/payment-logo/centralbank.png'
-import fino from './img/payment-logo/fino.png'
-import gayathri from './img/payment-logo/gayathri.png'
-import bob from './img/payment-logo/Bank-of-Baroda.png'
-import bom from './img/payment-logo/bank of maharashtra.png'
-import uco from './img/payment-logo/uco.png'
-import idbi from './img/payment-logo/idbi.png'
-import punjab from './img/payment-logo/punjab national.png'
-import rbl from './img/payment-logo/rbl.png'
 import { bankdata } from './Data'
 
 import bgimage from './img/hero/hero-bg-2.png'
@@ -82,10 +66,6 @@ const Partners = () => {
                           </div>
                           <div className="inner-project-content">
                             <h4 className="inner-project-title">{bank.name}</h4>
-                            <p>
-                              Quis nostrud exercitation ullamco laboris nisi ut
-                              aliquip ex ea commodo.
-                            </p>
                           </div>
                         </div>
                       </div>

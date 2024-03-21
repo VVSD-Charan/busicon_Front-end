@@ -23,7 +23,7 @@ const Application = () => {
     }
 
     getJob()
-  }, [])
+  })
 
   function handleSubmit(e) {
     e.preventDefault()
