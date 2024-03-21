@@ -35,7 +35,7 @@ const Header = () => {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="https://busicon.co.in/about">About us</a>
+                      <a href="/about">About us</a>
                       <ul className="submenu">
                         <li>
                           <a href="/about">Who we are</a>
