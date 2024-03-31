@@ -460,11 +460,7 @@ const About = () => {
                         <h3 className="tp-section-title text-white">
                           Try our service now!
                         </h3>
-                        <p>
-                          Eyerything you need to accept cord payments and grow
-                          your business <br />
-                          anywhere on the planet.
-                        </p>
+                        <p>the future of your finance is on your fingertips</p>
                         <a
                           className="tp-btn-inner white-bg text-black"
                           href="/services"
