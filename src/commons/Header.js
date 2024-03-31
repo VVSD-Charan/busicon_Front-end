@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../img/busicon/logo.png'
 import downlogo from '../img/busicon/down-logo.png'
+import { FaBars } from 'react-icons/fa'
 
 const Header = () => {
+  const [showSmallScreenMenu, setShowSmallScreenMenu] = useState(false)
+
+  const toggleSmallScreenMenu = () => {
+    if (showSmallScreenMenu) {
+      setShowSmallScreenMenu(false)
+    } else {
+      setShowSmallScreenMenu(true)
+    }
+  }
+
   return (
     <header className="tp-header-height">
       {/* tp-header-area-start */}
       <div
         id="header-sticky"
-        className="tp-header-2__area header-sticky-bg-2 tp-header-2__transparent tp-header-2__plr z-index-6"
+        className="tp-header-2__area header-sticky-bg-2 tp-header-2__transparent tp-header-2__plr z-index-5"
       >
         <div className="container-fluid g-0">
           <div className="row g-0 align-items-center">
@@ -82,6 +93,64 @@ const Header = () => {
         </div>
       </div>
       {/* tp-header-area-end */}
+
+      {/* Small Screen Navbar */}
+      <div
+        className={`small-screen-navbar d-lg-none z-index-6 ${
+          showSmallScreenMenu ? 'active' : ''
+        }`}
+      >
+        <div
+          className="small-screen-navbar-inner"
+          style={{
+            textAlign: 'right',
+            paddingRight: '10px',
+            position: 'fixed',
+            right: '0',
+          }}
+        >
+          <a onClick={toggleSmallScreenMenu}>
+            <FaBars
+              style={{
+                color: 'black',
+                marginTop: '20px',
+                marginRight: '20px',
+                fontSize: '30px',
+              }}
+            />
+          </a>
+          {showSmallScreenMenu && (
+            <div className="small-screen-menu">
+              <nav>
+                <ul
+                  style={{
+                    textAlign: 'center',
+                    color: 'black',
+                    textDecoration: 'none',
+                    listStyle: 'none',
+                  }}
+                >
+                  <li style={{ marginBottom: '10px' }}>
+                    <a href="/">Home</a>
+                  </li>
+                  <li style={{ marginBottom: '10px' }}>
+                    <a href="/about">About us</a>
+                  </li>
+                  <li style={{ marginBottom: '10px' }}>
+                    <a href="/services">Services</a>
+                  </li>
+                  <li style={{ marginBottom: '10px' }}>
+                    <a href="/contact">Contact</a>
+                  </li>
+                  <li style={{ marginBottom: '30px' }}>
+                    <a href="/careers">Careers</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          )}
+        </div>
+      </div>
     </header>
   )
 }
