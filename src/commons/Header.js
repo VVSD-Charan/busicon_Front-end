@@ -125,7 +125,7 @@ const Header = () => {
                 <ul
                   style={{
                     textAlign: 'center',
-                    color: 'black',
+                    color: 'white',
                     textDecoration: 'none',
                     listStyle: 'none',
                   }}
