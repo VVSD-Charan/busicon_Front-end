@@ -88,7 +88,7 @@ const Partners = () => {
                         <h3 className="tp-section-title text-white">
                           Try our service now!
                         </h3>
-                        <p>the future of your finance is on your fingertips</p>
+                        <p>The Future Of Your Finance Is On Your Fingertips</p>
                         <a
                           className="tp-btn-inner white-bg text-black"
                           href="/services"

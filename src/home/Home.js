@@ -774,7 +774,7 @@ const Home = () => {
                         <h3 className="tp-section-title-lg text-white">
                           Try our service now!
                         </h3>
-                        <p>the future of your finance is on your fingertips</p>
+                        <p>The Future Of Your Finance Is On Your Fingertips</p>
                         <a className="tp-btn-green" href="/services">
                           Try our services
                         </a>
