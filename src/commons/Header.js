@@ -109,7 +109,7 @@ const Header = () => {
             right: '0',
           }}
         >
-          <a onClick={toggleSmallScreenMenu}>
+          <a onClick={toggleSmallScreenMenu} href="/">
             <FaBars
               style={{
                 color: 'black',
