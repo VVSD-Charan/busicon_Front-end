@@ -109,7 +109,7 @@ const Header = () => {
             right: '0',
           }}
         >
-          <a onClick={toggleSmallScreenMenu} href="/">
+          <button onClick={toggleSmallScreenMenu}>
             <FaBars
               style={{
                 color: 'black',
@@ -118,7 +118,7 @@ const Header = () => {
                 fontSize: '30px',
               }}
             />
-          </a>
+          </button>
           {showSmallScreenMenu && (
             <div className="small-screen-menu">
               <nav>
