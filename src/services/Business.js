@@ -8,10 +8,8 @@ import businessimage from '../img/lono-services/business.jpg'
 import breadcrumbshape1 from '../img/breadcrumb/breadcrumb-shape-1.png'
 import breadcrumbshape2 from '../img/breadcrumb/breadcrumb-shape-2.png'
 import breadcrumbsub1 from '../img/breadcrumb/breadcrumb-sub-1.png'
-import breadcrumb3 from '../img/breadcrumb/breadcrumb-3.png'
 
 // Importing service images
-import svdashboard from '../img/service/sv-dashbord.png'
 import svbg from '../img/service/sv-bg.jpg'
 
 const Business = () => {
@@ -59,7 +57,7 @@ const Business = () => {
                   </div>
                   <div className="col-xl-4 col-lg-5 col-lg-4 text-center text-md-end">
                     <div className="breadcrumb__img p-relative text-start z-index">
-                      <img className="z-index-3" src={breadcrumb3} alt="" />
+                      <img className="z-index-3" src="/img/businesspage.jpeg" alt="" />
                       <div
                         className="breadcrumb__sub-img wow tpfadeUp"
                         data-wow-duration=".9s"
@@ -141,7 +139,7 @@ const Business = () => {
                             className="wow tpfadeRight"
                             data-wow-duration=".9s"
                             data-wow-delay=".3s"
-                            src={svdashboard}
+                            src="/img/work.jpeg"
                             alt=""
                           />
                         </div>

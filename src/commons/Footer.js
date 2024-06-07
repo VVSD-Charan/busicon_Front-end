@@ -35,7 +35,7 @@ const Footer = () => {
                   </div>
                   <div className="tp-footer__contact-info">
                     <a
-                      href="https://www.google.com.bd/maps/place/লাক্সেমবার্গ/@49.8143242,5.5590915,10z/data=!3m1!4b1!4m5!3m4!1s0x479545b9ca212147:0x64db60f602d392ef!8m2!3d49.815273!4d6.129583"
+                      href="https://www.google.co.in/maps/place/Siddipet,+Telangana/@18.1021727,78.8278235,14z/data=!3m1!4b1!4m6!3m5!1s0x3bcc92b2b5edb805:0x498ecfa22f1e8ce4!8m2!3d18.1017996!4d78.8519601!16zL20vMDlwY2du?entry=ttu"
                       target="_blank"
                       rel="noreferrer"
                     >

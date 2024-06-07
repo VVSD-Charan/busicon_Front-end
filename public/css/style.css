@@ -3864,7 +3864,7 @@ input[type=color] {
   width: 100%;
   box-shadow: 0px 4px 10px rgba(3, 4, 28, 0.1);
   animation: 600ms ease-in-out 0s normal none 1 running fadeInDown;
-  z-index: 999;
+  z-index: 3
 }
 .header-sticky-bg-2.header-sticky .black-logo {
   display: block;
